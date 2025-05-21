@@ -1,0 +1,49 @@
+{
+  "global": {
+    "name": "Presentation Planner",
+    "sk": "SK",
+    "en": "EN"
+  },
+  "schedule": {
+    "nonstop": "Nonstop",
+    "daily": "Daily",
+    "add": "Add presentation",
+    "mode": "Playback mode",
+    "no_plan": "Without planning",
+    "days": "On selected days"
+  },
+ "dialog": {
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "title": "Are you sure, you want to delete this item?"
+
+  },
+  "table": {
+    "current_presentation": "Currently playing presentation",
+    "no_presentation": "No presentation is currently playing",
+    "presentation_list": "Presentations List",
+    "no_available": "No presentation available",
+    "name": "Project name",
+    "schedule": "Schedule",
+    "actions": "Actions"
+  },
+  "days": {
+    "0": "Sun",
+    "1": "Mon",
+    "2": "Tue",
+    "3": "Wed",
+    "4": "Thu",
+    "5": "Fri",
+    "6": "Sat"
+  },
+  "alerts": {
+    "missingName": "Please add name of the presentation.",
+    "missingTime": "Please select start and end time.",
+    "missingDays": "Please select at least one day.",
+    "addedPresentation": "Successfully added presentation.",
+    "duplicateName": "Presentation with this name already exists.",
+    "deletePresentation": "Presentation successfully deleted.",
+    "timeConflict": "Time conflict with another presentation.",
+    "invalidTimeRange": "End time must be after start time."
+  }
+}

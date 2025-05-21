@@ -1,0 +1,49 @@
+{
+  "global": {
+    "name": "Plánovač prezentácií",
+    "sk": "SK",
+    "en": "EN"
+  },
+  "schedule": {
+    "nonstop": "Nonstop",
+    "daily": "Denne",
+    "add": "Pridať prezentáciu",
+    "mode": "Režim prehrávania",
+    "no_plan": "Bez plánovania",
+    "days": "V určené dni"
+  },
+  "dialog": {
+    "cancel": "Zrušiť",
+    "delete": "Vymazať",
+    "title": "Ste si istý, že chcete vymazať túto prezentáciu?"
+
+  },
+  "table": {
+    "current_presentation": "Aktuálne prehrávaná prezentácia",
+    "no_presentation": "Momentálne sa neprehráva žiadna prezentácia",
+    "presentation_list": "Zoznam prezentácií",
+    "no_available": "Nie je dostupná žiadna prezentácia",
+    "name": "Názov prezentácie",
+    "schedule": "Plán",
+    "actions": "Akcie"
+  },
+  "days": {
+    "0": "Ne",
+    "1": "Po",
+    "2": "Ut",
+    "3": "St",
+    "4": "Št",
+    "5": "Pi",
+    "6": "So"
+  },
+  "alerts": {
+    "missingName": "Prosím, zadajte názov prezentácie.",
+    "missingTime": "Prosím, vyberte čas začiatku a konca.",
+    "missingDays": "Prosím, vyberte aspoň jeden deň.",
+    "addedPresentation": "Prezentácia bola úspešne pridaná.",
+    "duplicateName": "Prezentácia s týmto názvom už existuje.",
+    "deletePresentation": "Prezentácia bola úspešne vymazaná.",
+    "timeConflict": "Čas sa prekrýva s inou prezentáciou.",
+    "invalidTimeRange": "Čas ukončenia musí byť po čase začiatku."
+  }
+}
