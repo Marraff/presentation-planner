@@ -2,14 +2,18 @@
   "global": {
     "name": "Plánovač prezentácií",
     "sk": "SK",
-    "en": "EN"
+    "en": "EN",
+    "round": "Zaokrúhľovanie",
+    "presentation": "Prezentácie"
+
   },
   "schedule": {
     "nonstop": "Nonstop",
     "daily": "Denne",
     "add": "Pridať prezentáciu",
     "mode": "Režim prehrávania",
-    "no_plan": "Bez plánovania",
+    "no_plan": "Nepretržite",
+    "name": "Názov",
     "days": "V určené dni"
   },
   "dialog": {
@@ -45,5 +49,14 @@
     "deletePresentation": "Prezentácia bola úspešne vymazaná.",
     "timeConflict": "Čas sa prekrýva s inou prezentáciou.",
     "invalidTimeRange": "Čas ukončenia musí byť po čase začiatku."
+  },
+  "round": {
+    "show": "Ukážka funkcie zaokrúhľovania",
+    "text": "Zadajte číslo a počet miest, na ktoré chcete zaokrúhliť:",
+    "result": "Výsledok",
+    "error": "Prosím zadajte platné čísla.",
+    "pre": "Preddefinované príklady",
+    "num": "Číslo",
+    "round": "Zaokrúhliť na"
   }
 }

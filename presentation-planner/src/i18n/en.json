@@ -2,14 +2,18 @@
   "global": {
     "name": "Presentation Planner",
     "sk": "SK",
-    "en": "EN"
+    "en": "EN",
+    "round": "Round function",
+    "presentation": "Presentation"
   },
   "schedule": {
     "nonstop": "Nonstop",
     "daily": "Daily",
     "add": "Add presentation",
     "mode": "Playback mode",
-    "no_plan": "Without planning",
+    "name": "Name",
+    "no_plan": "Nonstop",
+
     "days": "On selected days"
   },
  "dialog": {
@@ -45,5 +49,15 @@
     "deletePresentation": "Presentation successfully deleted.",
     "timeConflict": "Time conflict with another presentation.",
     "invalidTimeRange": "End time must be after start time."
-  }
+  },
+  "round": {
+    "show": "Demonstration of rounding function",
+    "text": "Enter a number and the number of digits to round to:",
+    "result": "Result",
+    "error": "Please enter valid numbers.",
+    "pre": "Predefined examples",
+    "num": "Number",
+    "round": "Round to"
+}
+
 }

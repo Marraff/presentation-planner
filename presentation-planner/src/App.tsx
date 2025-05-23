@@ -11,8 +11,9 @@ import { dialogs } from './utils/dialogUtils';
 import { ConfirmDialog } from './components/ConfirmDialog';
 import { useTranslation } from 'react-i18next';
 import { LanguageSwitcher } from './components/LanguageSwitcher';
-
-
+import Header from './components/Header'
+import  RoundNumberPage from './components/round/Round'
+ 
 export const App = () => {
 
   const [projects, setProjects] = useState<ProjectSchedule[]>([]);
@@ -56,13 +57,14 @@ export const App = () => {
   };
 
   const options = dialogs(t).confirmDelete(handleConfirmDelete, handleCancelDelete, itemName);
+  const [activePage, setActivePage] = useState('planner');
 
 
   return (
     <>
-    <header style={{ display: 'flex', justifyContent: 'flex-end', padding: '1rem' }}>
-        <LanguageSwitcher />
-      </header>
+      <Header setActivePage={setActivePage} />
+
+      {activePage === 'planner' && (
       <Container maxWidth="sm">
         <Typography variant="h4" align="center" sx={{ mt: 4, mb: 4 }}>
           {t('global.name')}
@@ -74,6 +76,9 @@ export const App = () => {
           onDelete={(projectId, name) => handleDeleteClick(projectId, name)}
         />
       </Container>
+      )}
+
+    {activePage === 'round' && <RoundNumberPage />}
 
       <ConfirmDialog
         open={dialogOpen}

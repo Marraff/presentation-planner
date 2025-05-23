@@ -126,7 +126,7 @@ function ScheduleForm({ onAdd, existingProjects }: Props) {
       </Typography>
 
       <TextField
-        label="Name"
+        label={t('schedule.name')}
         value={name}
         onChange={(e) => setName(e.target.value)}
         fullWidth

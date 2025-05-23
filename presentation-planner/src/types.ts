@@ -8,7 +8,7 @@ export interface TimeRange {
 export interface Schedule {
   type: ScheduleType;
   timeRange?: TimeRange;
-  daysOfWeek?: number[]; // 0 = nedeľa, 1 = pondelok, ..., 6 = sobota
+  daysOfWeek?: number[];
 }
 
 export interface ProjectSchedule {
