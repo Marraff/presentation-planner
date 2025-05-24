@@ -1,4 +1,4 @@
-## 2. Project Setup
+## Project Setup
 
 The frontend is built using React with Typescript
 
